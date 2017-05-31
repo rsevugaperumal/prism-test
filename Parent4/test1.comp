@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmp:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cmp="http://www.contivo.com/components/2005/02" guid="_IrF-oS11Eea7luavICbFfw" name="Schema">
+  <nestedPackages xmi:type="cmp:Package" guid="_ItwREy11Eea7luavICbFfw" name="Tables" nsURI="www.liaison.com/contivo/tables/2009" nsPrefix="t">
+    <ownedTypes xmi:type="cmp:ConcreteComponent" guid="_NGvDgC11Eea7luavICbFfw" name="EMPLOYEES">
+      <ownedProperties xmi:type="cmp:ConcreteProperty" guid="_NG1xMC11Eea7luavICbFfw" name="EMPLOYEE_ID" lower="1" memberKind="attribute">
+        <ownedType xmi:type="cmp:AtomicType" guid="_NG3mYS11Eea7luavICbFfw">
+          <generalizations xmi:type="cmp:Generalization" guid="_NG4NcC11Eea7luavICbFfw" derivation="restriction" general="_NG3mYC11Eea7luavICbFfw"/>
+          <facets xmi:type="cmp:Facet" guid="_NG40gC11Eea7luavICbFfw" constraint="minLength" value="0"/>
+          <facets xmi:type="cmp:Facet" guid="_NG40gS11Eea7luavICbFfw" constraint="maxLength" value="4000"/>
+        </ownedType>
+        <bindings xmi:type="cmp:SemanticPropertyBinding" guid="_NG6psC11Eea7luavICbFfw" semantic="_NG6CoC11Eea7luavICbFfw"/>
+      </ownedProperties>
+      <ownedProperties xmi:type="cmp:ConcreteProperty" guid="_NG7QwS11Eea7luavICbFfw" name="SSN" memberKind="attribute">
+        <ownedType xmi:type="cmp:AtomicType" guid="_NG7Qwy11Eea7luavICbFfw">
+          <generalizations xmi:type="cmp:Generalization" guid="_NG7QxC11Eea7luavICbFfw" derivation="restriction" general="_NG7Qwi11Eea7luavICbFfw"/>
+          <facets xmi:type="cmp:Facet" guid="_NG7QxS11Eea7luavICbFfw" constraint="minLength" value="0"/>
+          <facets xmi:type="cmp:Facet" guid="_NG7Qxi11Eea7luavICbFfw" constraint="maxLength" value="0"/>
+        </ownedType>
+        <bindings xmi:type="cmp:SemanticPropertyBinding" guid="_NG7QyC11Eea7luavICbFfw" semantic="_NG7Qxy11Eea7luavICbFfw"/>
+      </ownedProperties>
+      <ownedProperties xmi:type="cmp:ConcreteProperty" guid="_NG7QyS11Eea7luavICbFfw" name="LAST_NAME" memberKind="attribute">
+        <ownedType xmi:type="cmp:AtomicType" guid="_NG7Qyi11Eea7luavICbFfw">
+          <generalizations xmi:type="cmp:Generalization" guid="_NG7Qyy11Eea7luavICbFfw" derivation="restriction" general="_NG3mYC11Eea7luavICbFfw"/>
+          <facets xmi:type="cmp:Facet" guid="_NG7QzC11Eea7luavICbFfw" constraint="minLength" value="0"/>
+          <facets xmi:type="cmp:Facet" guid="_NG730C11Eea7luavICbFfw" constraint="maxLength" value="4000"/>
+        </ownedType>
+        <bindings xmi:type="cmp:SemanticPropertyBinding" guid="_NG730i11Eea7luavICbFfw" semantic="_NG730S11Eea7luavICbFfw"/>
+      </ownedProperties>
+      <ownedProperties xmi:type="cmp:ConcreteProperty" guid="_NG730y11Eea7luavICbFfw" name="FIRST_NAME" memberKind="attribute">
+        <ownedType xmi:type="cmp:AtomicType" guid="_NG731C11Eea7luavICbFfw">
+          <generalizations xmi:type="cmp:Generalization" guid="_NG731S11Eea7luavICbFfw" derivation="restriction" general="_NG3mYC11Eea7luavICbFfw"/>
+          <facets xmi:type="cmp:Facet" guid="_NG731i11Eea7luavICbFfw" constraint="minLength" value="0"/>
+          <facets xmi:type="cmp:Facet" guid="_NG731y11Eea7luavICbFfw" constraint="maxLength" value="4000"/>
+        </ownedType>
+        <bindings xmi:type="cmp:SemanticPropertyBinding" guid="_NG732S11Eea7luavICbFfw" semantic="_NG732C11Eea7luavICbFfw"/>
+      </ownedProperties>
+      <ownedProperties xmi:type="cmp:ConcreteProperty" guid="_NG732i11Eea7luavICbFfw" name="AGE" memberKind="attribute">
+        <ownedType xmi:type="cmp:AtomicType" guid="_NG732y11Eea7luavICbFfw">
+          <generalizations xmi:type="cmp:Generalization" guid="_NG733C11Eea7luavICbFfw" derivation="restriction" general="_NG7Qwi11Eea7luavICbFfw"/>
+          <facets xmi:type="cmp:Facet" guid="_NG733S11Eea7luavICbFfw" constraint="minLength" value="0"/>
+          <facets xmi:type="cmp:Facet" guid="_NG733i11Eea7luavICbFfw" constraint="maxLength" value="0"/>
+        </ownedType>
+        <bindings xmi:type="cmp:SemanticPropertyBinding" guid="_NG734C11Eea7luavICbFfw" semantic="_NG733y11Eea7luavICbFfw"/>
+      </ownedProperties>
+      <ownedProperties xmi:type="cmp:ConcreteProperty" guid="_NG734S11Eea7luavICbFfw" name="ZIP" memberKind="attribute">
+        <ownedType xmi:type="cmp:AtomicType" guid="_NG734i11Eea7luavICbFfw">
+          <generalizations xmi:type="cmp:Generalization" guid="_NG734y11Eea7luavICbFfw" derivation="restriction" general="_NG7Qwi11Eea7luavICbFfw"/>
+          <facets xmi:type="cmp:Facet" guid="_NG735C11Eea7luavICbFfw" constraint="minLength" value="0"/>
+          <facets xmi:type="cmp:Facet" guid="_NG735S11Eea7luavICbFfw" constraint="maxLength" value="0"/>
+        </ownedType>
+        <bindings xmi:type="cmp:SemanticPropertyBinding" guid="_NG735y11Eea7luavICbFfw" semantic="_NG735i11Eea7luavICbFfw"/>
+      </ownedProperties>
+      <ownedProperties xmi:type="cmp:ConcreteProperty" guid="_NG736C11Eea7luavICbFfw" name="DATE_JOIN" memberKind="attribute">
+        <ownedType xmi:type="cmp:AtomicType" guid="_NG736i11Eea7luavICbFfw">
+          <generalizations xmi:type="cmp:Generalization" guid="_NG736y11Eea7luavICbFfw" derivation="restriction" general="_NG736S11Eea7luavICbFfw"/>
+          <facets xmi:type="cmp:Facet" guid="_NG8e4C11Eea7luavICbFfw" constraint="minLength" value="0"/>
+          <facets xmi:type="cmp:Facet" guid="_NG8e4S11Eea7luavICbFfw" constraint="maxLength" value="7"/>
+        </ownedType>
+        <bindings xmi:type="cmp:SemanticPropertyBinding" guid="_NG8e4y11Eea7luavICbFfw" semantic="_NG8e4i11Eea7luavICbFfw"/>
+      </ownedProperties>
+      <ownedProperties xmi:type="cmp:ConcreteProperty" guid="_NG8e5C11Eea7luavICbFfw" name="LAST_UPDATE" memberKind="attribute">
+        <ownedType xmi:type="cmp:AtomicType" guid="_NG8e5S11Eea7luavICbFfw">
+          <generalizations xmi:type="cmp:Generalization" guid="_NG8e5i11Eea7luavICbFfw" derivation="restriction" general="_NG736S11Eea7luavICbFfw"/>
+          <facets xmi:type="cmp:Facet" guid="_NG8e5y11Eea7luavICbFfw" constraint="minLength" value="0"/>
+          <facets xmi:type="cmp:Facet" guid="_NG8e6C11Eea7luavICbFfw" constraint="maxLength" value="11"/>
+        </ownedType>
+        <bindings xmi:type="cmp:SemanticPropertyBinding" guid="_NG8e6i11Eea7luavICbFfw" semantic="_NG8e6S11Eea7luavICbFfw"/>
+      </ownedProperties>
+      <bindings xmi:type="cmp:SemanticBinding" guid="_NGzU8C11Eea7luavICbFfw" semantic="_NGxfwC11Eea7luavICbFfw"/>
+    </ownedTypes>
+    <ownedTypes xmi:type="cmp:ConcreteComponent" guid="_NG8e6y11Eea7luavICbFfw" name="PAYSTRUCTURE">
+      <ownedProperties xmi:type="cmp:ConcreteProperty" guid="_NG8e8C11Eea7luavICbFfw" name="HRA" lower="1" memberKind="attribute">
+        <ownedType xmi:type="cmp:AtomicType" guid="_NG8e8S11Eea7luavICbFfw">
+          <generalizations xmi:type="cmp:Generalization" guid="_NG8e8i11Eea7luavICbFfw" derivation="restriction" general="_NG3mYC11Eea7luavICbFfw"/>
+          <facets xmi:type="cmp:Facet" guid="_NG8e8y11Eea7luavICbFfw" constraint="minLength" value="0"/>
+          <facets xmi:type="cmp:Facet" guid="_NG8e9C11Eea7luavICbFfw" constraint="maxLength" value="4000"/>
+        </ownedType>
+        <bindings xmi:type="cmp:SemanticPropertyBinding" guid="_NG8e9i11Eea7luavICbFfw" semantic="_NG8e9S11Eea7luavICbFfw"/>
+      </ownedProperties>
+      <ownedProperties xmi:type="cmp:ConcreteProperty" guid="_NG8e9y11Eea7luavICbFfw" name="BASIC_PAY" memberKind="attribute">
+        <ownedType xmi:type="cmp:AtomicType" guid="_NG8e-C11Eea7luavICbFfw">
+          <generalizations xmi:type="cmp:Generalization" guid="_NG8e-S11Eea7luavICbFfw" derivation="restriction" general="_NG3mYC11Eea7luavICbFfw"/>
+          <facets xmi:type="cmp:Facet" guid="_NG8e-i11Eea7luavICbFfw" constraint="minLength" value="0"/>
+          <facets xmi:type="cmp:Facet" guid="_NG8e-y11Eea7luavICbFfw" constraint="maxLength" value="4000"/>
+        </ownedType>
+        <bindings xmi:type="cmp:SemanticPropertyBinding" guid="_NG9F8S11Eea7luavICbFfw" semantic="_NG9F8C11Eea7luavICbFfw"/>
+      </ownedProperties>
+      <ownedProperties xmi:type="cmp:ConcreteProperty" guid="_NG9F8i11Eea7luavICbFfw" name="EMPLOYEE_ID" memberKind="attribute">
+        <ownedType xmi:type="cmp:AtomicType" guid="_NG9F8y11Eea7luavICbFfw">
+          <generalizations xmi:type="cmp:Generalization" guid="_NG9F9C11Eea7luavICbFfw" derivation="restriction" general="_NG3mYC11Eea7luavICbFfw"/>
+          <facets xmi:type="cmp:Facet" guid="_NG9F9S11Eea7luavICbFfw" constraint="minLength" value="0"/>
+          <facets xmi:type="cmp:Facet" guid="_NG9F9i11Eea7luavICbFfw" constraint="maxLength" value="4000"/>
+        </ownedType>
+        <bindings xmi:type="cmp:SemanticPropertyBinding" guid="_NG9F-C11Eea7luavICbFfw" semantic="_NG9F9y11Eea7luavICbFfw"/>
+      </ownedProperties>
+      <bindings xmi:type="cmp:SemanticBinding" guid="_NG8e7y11Eea7luavICbFfw" semantic="_NG8e7S11Eea7luavICbFfw"/>
+    </ownedTypes>
+  </nestedPackages>
+  <nestedPackages xmi:type="cmp:Package" guid="_ItwRFC11Eea7luavICbFfw" name="Views" nsURI="www.liaison.com/contivo/views/2009" nsPrefix="v"/>
+  <nestedPackages xmi:type="cmp:Package" guid="_ItwRFS11Eea7luavICbFfw" name="DataTypes" nsURI="www.liaison.com/contivo/java.sql.types/2009" nsPrefix="db">
+    <ownedTypes xmi:type="cmp:AtomicType" guid="_NG3mYC11Eea7luavICbFfw" name="VARCHAR"/>
+    <ownedTypes xmi:type="cmp:AtomicType" guid="_NG7Qwi11Eea7luavICbFfw" name="DECIMAL"/>
+    <ownedTypes xmi:type="cmp:AtomicType" guid="_NG736S11Eea7luavICbFfw" name="TIMESTAMP"/>
+  </nestedPackages>
+  <nestedPackages xmi:type="cmp:Package" guid="_ItwRFi11Eea7luavICbFfw" name="Semantic">
+    <ownedTypes xmi:type="cmp:SemanticComponent" guid="_NGxfwC11Eea7luavICbFfw" name="EMPLOYEES">
+      <ownedProperties xmi:type="cmp:SemanticProperty" guid="_NG6CoC11Eea7luavICbFfw" name="EMPLOYEE_ID" lower="1">
+        <bindings xmi:type="cmp:TermPropertyBinding" guid="_NG7QwC11Eea7luavICbFfw" term="_NG6psS11Eea7luavICbFfw"/>
+      </ownedProperties>
+      <ownedProperties xmi:type="cmp:SemanticProperty" guid="_NG7Qxy11Eea7luavICbFfw" name="SSN"/>
+      <ownedProperties xmi:type="cmp:SemanticProperty" guid="_NG730S11Eea7luavICbFfw" name="LAST_NAME"/>
+      <ownedProperties xmi:type="cmp:SemanticProperty" guid="_NG732C11Eea7luavICbFfw" name="FIRST_NAME"/>
+      <ownedProperties xmi:type="cmp:SemanticProperty" guid="_NG733y11Eea7luavICbFfw" name="AGE"/>
+      <ownedProperties xmi:type="cmp:SemanticProperty" guid="_NG735i11Eea7luavICbFfw" name="ZIP"/>
+      <ownedProperties xmi:type="cmp:SemanticProperty" guid="_NG8e4i11Eea7luavICbFfw" name="DATE_JOIN"/>
+      <ownedProperties xmi:type="cmp:SemanticProperty" guid="_NG8e6S11Eea7luavICbFfw" name="LAST_UPDATE"/>
+      <bindings xmi:type="cmp:TermBinding" guid="_NGyt4C11Eea7luavICbFfw" term="_NGwRoC11Eea7luavICbFfw"/>
+    </ownedTypes>
+    <ownedTypes xmi:type="cmp:SemanticComponent" guid="_NG8e7S11Eea7luavICbFfw" name="PAYSTRUCTURE">
+      <ownedProperties xmi:type="cmp:SemanticProperty" guid="_NG8e9S11Eea7luavICbFfw" name="HRA" lower="1"/>
+      <ownedProperties xmi:type="cmp:SemanticProperty" guid="_NG9F8C11Eea7luavICbFfw" name="BASIC_PAY"/>
+      <ownedProperties xmi:type="cmp:SemanticProperty" guid="_NG9F9y11Eea7luavICbFfw" name="EMPLOYEE_ID">
+        <bindings xmi:type="cmp:TermPropertyBinding" guid="_NG9F-S11Eea7luavICbFfw" term="_NG6psS11Eea7luavICbFfw"/>
+      </ownedProperties>
+      <bindings xmi:type="cmp:TermBinding" guid="_NG8e7i11Eea7luavICbFfw" term="_NG8e7C11Eea7luavICbFfw"/>
+    </ownedTypes>
+    <ownedElements xmi:type="cmp:Term" guid="_NGwRoC11Eea7luavICbFfw" name="EMPLOYEES" noun="true"/>
+    <ownedElements xmi:type="cmp:Term" guid="_NG8e7C11Eea7luavICbFfw" name="PAYSTRUCTURE" noun="true"/>
+  </nestedPackages>
+  <nestedPackages xmi:type="cmp:Package" guid="_ItwRFy11Eea7luavICbFfw" name="Relationships" nsURI="www.liaison.com/contivo/relationships/2009" nsPrefix="rel">
+    <ownedElements xmi:type="cmp:Term" guid="_NG6psS11Eea7luavICbFfw" name="EMPLOYEE_ID" property="true"/>
+  </nestedPackages>
+  <nestedPackages xmi:type="cmp:Package" guid="_ItwRGC11Eea7luavICbFfw" name="Mappings" nsURI="www.liaison.com/contivo/mappings/2009" nsPrefix="m"/>
+  <policies xmi:type="cmp:Policy" guid="_Itd9MC11Eea7luavICbFfw" name="schema" value="PHARMA"/>
+  <policies xmi:type="cmp:Policy" guid="_ItwREC11Eea7luavICbFfw" name="driver" value="oracle.jdbc.driver.OracleDriver"/>
+  <policies xmi:type="cmp:Policy" guid="_ItwRES11Eea7luavICbFfw" name="serverUrl" value="jdbc:oracle:thin:@10.0.25.124:1521:XE"/>
+  <policies xmi:type="cmp:Policy" guid="_ItwREi11Eea7luavICbFfw" name="username" value="schantest"/>
+</cmp:Package>
